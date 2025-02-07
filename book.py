@@ -3,8 +3,7 @@ class Book:
 
     def __init__(self, title="", authors=[], publisher="", isbn="0", price=10.0):
         """(Book, str, list of str, str, str, number) -> NoneType
-        Create a new book entitled title, written by the people in authors,
-        published by publisher, with ISBN isbn and costing price dollars.
+        Create a new book entitg price dollars.
         """
         self.title = title
         self.authors = authors[:]
